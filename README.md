@@ -15,3 +15,17 @@ fastp
 plink2
 
 ```
+
+To run:
+```
+cd ~/MitoHPC2
+conda activate MitoHPC_LR
+
+# edit:run.hifi.all.ONT.sh
+# edit inONT.txt
+#mkdir the output directory you defined
+bash ./run.hifi.all.ONT.sh 
+(base) [skgtrk2@login12 MitoHPC2]$ conda activate MitoHPC_LR
+(MitoHPC_LR) [skgtrk2@login12 MitoHPC2]$ bash ./run.hifi.all.ONT.sh 
+
+```

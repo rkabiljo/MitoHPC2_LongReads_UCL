@@ -20,7 +20,21 @@ To run:
 ```
 cd ~/MitoHPC2
 conda activate MitoHPC_LR
+```
 
+
+Something like this to run it:
+```
+echo $HP_SDIR
+cp $HP_SDIR/init.hifi.sh .
+nano init.hifi.sh 
+. ./init.hifi.sh
+$HP_SDIR/run.hifi.sh > run.KB.sh
+bash ./run.KB.sh 
+```
+
+or
+```
 # edit:run.hifi.all.ONT.sh
 # edit inONT.txt
 #mkdir the output directory you defined
@@ -29,3 +43,7 @@ bash ./run.hifi.all.ONT.sh
 (MitoHPC_LR) [skgtrk2@login12 MitoHPC2]$ bash ./run.hifi.all.ONT.sh 
 
 ```
+
+For short reads use the same, just init.sh instead of init.hifi.sh
+
+

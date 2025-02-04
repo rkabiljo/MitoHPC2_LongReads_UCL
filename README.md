@@ -20,7 +20,7 @@ To run:
 ```
 cd ~/MitoHPC2
 conda activate MitoHPC_LR
-module load jave
+module load java
 ```
 Activating this conda environment and loading java can be done one the node and the main script can also run one the node for a few samples only.
 If submitting to HPC, these two lines need to be in the submission script

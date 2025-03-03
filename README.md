@@ -11,7 +11,7 @@ samtools=1.21 \
 bcftools=1.21 \
 samblaster=0.1.26 \
 bedtools=2.31.1 \
-fastp
+fastp \
 plink2
 
 ```
